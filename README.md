@@ -1,7 +1,12 @@
 # MICROCONTROLLER - MICROPROCESSOR  
-## LABORATORY 2: LAB2_TIMER
+## LABORATORY 3: LAB3_Buttons_Switches
 
-## Source Folder Structure
+## 1. Schematic
+The code was simulated in **Proteus 8.10** using STM32F103C6. Here are the simulation of exercises.
+
+![Proteus Simulation](https://github.com/huanminh1/CO3009_LAB3_Buttons_Switches/blob/main/Imagine/Proteus_Lab3_FullEX.png)
+
+## 4. Source Folder Structure
 
 The main code for each exercise is organized in the `Core/` directory as follows:
 
