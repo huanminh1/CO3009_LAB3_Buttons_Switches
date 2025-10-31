@@ -1,9 +1,14 @@
 # MICROCONTROLLER - MICROPROCESSOR  
 ## LABORATORY 3: LAB3_Buttons_Switches
 
-## 1. Schematic
-The code was simulated in **Proteus 8.10** using STM32F103C6. Here are the simulation of exercises.
+## 1. FSM
+![FSM](https://github.com/huanminh1/CO3009_LAB3_Buttons_Switches/blob/main/Imagine/State%20Machine.png)
 
+## 2. Flowchart
+![Flowchart](https://github.com/huanminh1/CO3009_LAB3_Buttons_Switches/blob/main/Imagine/Flowchar%20_ManualLed.png)
+
+## 3. Schematic
+The code was simulated in **Proteus 8.10** using STM32F103C6. Here are the simulation of exercises.
 ![Proteus Simulation](https://github.com/huanminh1/CO3009_LAB3_Buttons_Switches/blob/main/Imagine/Proteus_Lab3_FullEX.png)
 
 ## 4. Source Folder Structure
@@ -51,3 +56,7 @@ Core/
 │
 └── Startup/
     └── startup_stm32f103c6ux.s   # Startup assembly code
+```
+## 5. NOTE
+1. Ensure correct clock configuration in STM32CubeIDE before building.
+2. The .gitignore is set up to exclude build outputs and temporary files, so only source code and important project files remain in the repository.
